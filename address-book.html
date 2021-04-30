@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Address book</title>
+    <script src="address-book.js" defer></script>
+    <link rel="stylesheet" href="address-book.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+          integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<body>
+<main>
+    <div class="wrapper">
+        <div class="form-Bg">
+            <div id="fill-all-fields"></div>
+            <form id="form">
+                <label for="name">Enter name:</label>
+                <input id="name" placeholder="name" type="text">
+                <label for="address">Enter address:</label>
+                <input id="address" placeholder="address" type="text">
+                <label for="email">Enter email:</label>
+                <input id="email" placeholder="email" type="email">
+                <label for="phone">Enter phone number:</label>
+                <input id="phone" placeholder="phone number" type="number">
+                <button id="enterBtn" type="submit">Enter</button>
+                <div class="fav-btn-con">
+                    <button id="showAll">Show all</button>
+                    <button id="showFavorites">Show favorites</button>
+                </div>
+            </form>
+            <div class="search-del-con">
+                <input type="search" id="search" placeholder="search name">
+                <button id="del-checked">Delete checked</button>
+                <button id="sort-A-Z">Sort A-Z</button>
+            </div>
+        </div>
+    </div>
+    <div id="app" class="app"></div>
+</main>
+</body>
+</html>

@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    font-size: 20px;
+    font-family: 'Changa One', cursive;
+}
+#fill-all-fields {
+    color: rgb(186,104,200);
+    text-align: center;
+}
+.check-fav-del-window {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.wrapper {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form-Bg {
+    background-color: #63AEEE;
+    padding: 20px;
+    border-radius: 5px;
+}
+.search-del-con {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.search-del-con input {
+    margin: 5px 0;
+    padding: 5px;
+}
+#form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+#form input {
+    padding: 5px;
+    margin: 5px 0
+}
+input[type=checkbox] {
+    cursor: pointer;
+    transform: scale(1.3);
+}
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#enterBtn {
+    padding: 5px;
+    margin: 5px 0;
+}
+#del-checked {
+    margin: 0 0 5px 0;
+}
+button {
+    cursor: pointer;
+    border-style: none;
+    border-radius: 5px;
+}
+input {
+    box-shadow: 0 0 150px -12px rgba(0,0,0,0.75);
+    border-style: none;
+    outline: none;
+}
+button:hover {
+    background-color: rgb(102,104,107);
+    color: white;
+}
+.fav-btn-con {
+    display: flex;
+}
+#showAll {
+    width: 50%;
+    margin: 5px 5px 0 0;
+}
+#showFavorites {
+    width: 50%;
+    margin: 5px 0 0 5px;
+}
+
+.generated-card-wrapper {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    width: 30%;
+    background-color: rgb(221,221,221);
+}
+.fa-star {
+    color: rgb(89,149,183);
+    cursor: pointer;
+    margin: 0 5px;
+}
+.fa-star:hover {
+    color: rgb(238,74,68);
+    transform: scale(1.1);
+}
+.fa-minus-square {
+    cursor: pointer;
+    color: rgb(153,153,153);
+    margin: 0 5px;
+}
+.fa-minus-square:hover {
+    transform: scale(1.1);
+    color: rgb(102,104,107);
+}
+
+.edit {
+    margin: 5px;
+    padding: 2px 8px;
+    border-style: none;
+    border-radius: 5px;
+}
+.edit:hover {
+    color: white;
+    background-color: rgb(102,104,107);
+}
+
